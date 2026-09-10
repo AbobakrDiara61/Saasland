@@ -13,9 +13,9 @@ function App() {
       <Header />
       <main className='pt-16'>
         <Routes>
-          <Route path="/Sassland/" element={<Home />} />
-          <Route path="/Sassland/docs" element={<>Docs</>} />
-          <Route path='/Sassland/*' element={<NotFoundPage />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/docs" element={<>Docs</>} />
+          <Route path='/*' element={<NotFoundPage />} />
         </Routes>
       <Footer />
       </main>
